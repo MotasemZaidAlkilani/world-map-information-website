@@ -1,0 +1,41 @@
+body{
+	background-color: #0077be;
+}
+h1{
+text-align: center;
+font-family: Segoe UI;
+-webkit-text-stroke:1px;
+}
+table{
+	position: absolute;
+	width: 200px;
+	top: 105px;
+	color: white;
+	border-color: black;
+	border-width:2px;
+	font-weight: bold;
+}
+.africa_table{
+	position: absolute;
+	left: 0px;
+}
+.asia_table{
+	position: absolute;
+	left:250px;
+}
+.Australia_table{
+	position: absolute;
+	left: 500px;
+}
+.europe_table{
+	position: absolute;
+	left: 750px;
+}
+.north_table{
+	position: absolute;
+	left: 1000px;
+}
+.south_table{
+	position: absolute;
+	left: 1250px;
+}

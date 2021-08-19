@@ -1,0 +1,127 @@
+.world_map_word{
+height:100px;
+width:1520px;
+color:#ffff;
+background-image: url(images/image.jfif);
+font-family: Segoe UI;
+border:solid 3px;
+-webkit-text-stroke:1px;
+border-radius:10px ;
+text-align:center;
+position:relative;
+z-index: 1;
+font-size:50px;
+top:-10px;
+left:-4px;
+}
+.site_word{
+    position: absolute;
+    top: 50px;
+    -webkit-text-stroke:1px;
+    font-size:30px;
+    font-family: Segoe UI;
+    left: 750px;
+    color:#ffff;
+    z-index: 1;
+}
+.here{
+	color: red;
+}
+li{
+	color:#0077be;
+	font-family:Arial Black; 
+
+}
+.continents{
+	font-family: Franklin Gothic Medium;
+	color:#00be47;
+	font-size:25px;
+	margin-left: 5px; 
+}
+.map_word{
+	position: absolute;
+  top:30px;
+  font-size: 30px;
+  left: 20px;
+}
+.google_map{
+z-index: 2;
+position: absolute;
+-webkit-text-stroke:1px;
+color:#ffff;
+top: 20px;
+text-decoration: none;
+font-size: 40px;
+left: 150px;
+}
+.countries{
+	color: white;
+	height: 300px;
+	top:200px;
+	-webkit-text-stroke:1px;
+	right: 50px;
+	width: 300px;
+	font-size: 500em;
+	position:absolute;
+	z-index: 4;
+	background-image: linear-gradient(#0077be, #00be47);;
+    background-position: all;
+    text-align: center; 
+	word-wrap:break-word;
+	border: 1px solid #0077be;
+	border-radius: 30px;
+	font-size: 15pt;
+	
+}
+.blue_letter{
+color:blue;
+}
+.red_letter{
+color:red;
+	
+}
+.green_letter{
+color:green;
+	
+}
+.yellow_letter{
+color:yellow;
+	
+}
+.africa_content{
+	top: 200px;
+}
+.asia_content{
+	top: 500px;
+}
+.north_content{
+	top:1400px;
+}
+.south_content{
+	top:1700px;
+}
+.Austrailia_content{
+	top:800px;
+}
+.europe_content{
+	top:1100px;
+}
+img{
+	margin-bottom:50px;
+	width:225px;
+	height: 225px;
+}
+p{
+	border:dashed; 1px;
+	overflow: scroll;
+	border-color: #0077be;
+	border-radius:10px;
+	padding:10px;
+	font-family: Blippo;
+	font-weight: bold;
+	word-spacing: 5px;
+	word-break: break-all;
+	width: 800px;
+	left: 300px;
+	position:absolute;
+}
